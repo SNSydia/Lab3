@@ -17,11 +17,17 @@ public abstract class Tweet implements Tweetable{
         this.date = new Date();
     }
     // Class Constructor
-    public Tweet(String message, Mood mood){
+    public Tweet(Date date, String message){
+        this.message = message;
+        this.date = new Date();
+    }
+
+    public Tweet(String message, Mood mood) {
         this.message = message;
         this.date = new Date();
         this.MoodList.add(mood);
     }
+
     // Another constructor
     public Tweet(Date date, String message, Mood mood){
         this.message = message;
@@ -68,4 +74,9 @@ public abstract class Tweet implements Tweetable{
     }
 
     public abstract Boolean isImportant();
+
+    @Override
+    public String toString(){
+        return date.toString() + " | " + message;
+    }
 }
