@@ -8,15 +8,16 @@ import java.util.Date;
 
 public class SaltyMood extends Mood {
 
-    private String newMood =  "I'm finally happy!";
+    private String newMood =  "I hate this world!";
 
-    public HappyMood(Date date, String mood) {
+    public SaltyMood(Date date, String mood) {
         super(date, mood);
+        setMood(newMood);
     }
 
     @Override
     public String getMoodFormatString(){
-        setMood(newMood);
+
         return newMood;
     }
 
