@@ -6,13 +6,13 @@
 package ca.ualberta.cs.lonelytwitter;
 
 /**
- * Created by sydia on 1/19/17.
+ * Created by sydia on 2/2/17.
  */
 
 /**
- * Class for methods that throw TweetTooLongException
- * It means the tweet has exceeded the limit of 140 characters
+ *
+ * Class created to test Javadocs and copywriting.
+ * NO FUNCTIONALITY.
  */
-public class TweetTooLongException extends Exception {
-
+public class Test {
 }
