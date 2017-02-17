@@ -43,6 +43,7 @@ public class TweetListTest extends ActivityInstrumentationTestCase2 {
         assertTrue(tweets.hasTweet(tweet));
     }
 
+
     public void testGetTweets(){
         TweetList tweets = new TweetList();
 
