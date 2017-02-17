@@ -20,6 +20,11 @@ public class LonelyTwitterActivityTest extends ActivityInstrumentationTestCase2<
         super(ca.ualberta.cs.lonelytwitter.LonelyTwitterActivity.class);
     }
 
+    public void teststart() throws Exception{
+        Activity activity = getActivity();
+
+    }
+
 
 
 
